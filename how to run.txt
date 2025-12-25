@@ -1,0 +1,21 @@
+# Breast Cancer Diagnostic System (DevOps Project)
+
+This project demonstrates a full Machine Learning workflow from data processing to a real-time user interface.
+
+## 🛠 Tech Stack
+- **Language:** Python
+- **ML Libraries:** Scikit-learn, Pandas, Numpy
+- **Model Export:** Joblib
+- **Interface:** Gradio
+- **DevOps:** Git, GitHub
+
+## 🚀 How to Run
+1. Install dependencies: `pip install -r requirements.txt`
+2. Train the model: `python train_model.py`
+3. Launch the UI: `python app.py`
+
+## 📊 Workflow
+1. **Data:** Clinical features from breast cancer datasets.
+2. **Training:** Random Forest Classifier achieves high accuracy.
+3. **Serialization:** Model and Scaler saved via Joblib for production use.
+4. **Interface:** Web UI allows real-time user input and diagnosis.
